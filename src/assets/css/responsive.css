@@ -1,0 +1,287 @@
+/* index Responsive start */
+@media (max-width:991px) {
+
+  .item_text {
+    left: 75px;
+  }
+
+  .action_box {
+    font-weight: 600;
+    font-size: 10px !important;
+    white-space: nowrap;
+    justify-content: center;
+  }
+
+  .footer_section_main_wrapper {
+    margin-top: 0px;
+  }
+
+  .footer-social-icon i {
+    height: 30px;
+    width: 30px;
+    line-height: 30px;
+  }
+}
+
+@media (max-width:767px) {
+  .navbar_section_main_wrapper ul {
+    margin-top: 15px;
+    padding-left: 15px;
+  }
+
+  .navbar-light .navbar-nav .active>.nav-link {
+    padding-left: 12px;
+  }
+
+  .header_Section_main_wrapper {
+    display: none;
+  }
+
+  .action_box {
+    gap: 13px;
+    flex-direction: column;
+  }
+
+  .header_Section_main_wrapper ul {
+    margin-bottom: 10px;
+  }
+
+  .item img {
+    height: 300px;
+  }
+
+  .item::before {
+    height: 300px;
+  }
+
+  .item_text h1 {
+    font-size: 28px;
+    line-height: 1.4;
+  }
+
+  .item_text p {
+    font-size: 12px;
+  }
+
+  .item_text {
+    top: 0;
+    left: 0;
+
+  }
+
+  .banner_btn {
+    padding: 5px 20px;
+  }
+
+  .choose_us_section_main_wrapper .fa-stethoscope {
+    font-size: 26px;
+  }
+
+  .choose_us_section_main_wrapper .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .choose_us_section_main_wrapper .choose_text h4 {
+    font-size: 15px;
+  }
+
+  .choose_us_section_main_wrapper .choose_text p {
+    font-size: 12px;
+  }
+
+  .subscribe-form {
+    margin-bottom: 15px;
+  }
+
+  .cta-text {
+    margin-bottom: 18px;
+  }
+
+  .footer-cta {
+    padding: 0px;
+  }
+
+  .footer-social-icon {
+    margin-bottom: 20px;
+  }
+
+  .footer_section_main_wrapper {
+    padding: 0px;
+    margin-top: 30px;
+  }
+}
+
+/* index css End */
+/*  About Us Responsive Start */
+@media (max-width:991px) {
+  .counter_section_main_wrapper {
+    padding: 5px;
+
+  }
+
+
+}
+
+@media (max-width:767px) {
+  .faq_section_main_wrapper button {
+    font-size: 12px;
+  }
+
+  .faq_section_main_wrapper .card-body ol li {
+    margin-bottom: 10px;
+    font-size: 11px;
+    white-space: nowrap;
+  }
+
+  .faq_section_main_wrapper .faq_head h2 {
+    font-size: 23px;
+  }
+
+  .faq_head p {
+    font-size: 12px;
+    text-align: justify;
+  }
+
+  .choose_us_section_main_wrapper .choose_head h4 {
+    font-size: 23px;
+    margin-bottom: 12px;
+  }
+
+  .counter_section_main_wrapper .counter_text h1 {
+    font-size: 29px;
+    margin-bottom: 0px;
+  }
+
+  .counter_section_main_wrapper {
+    padding: 15px 2px;
+
+  }
+}
+
+/*  About Us Responsive End */
+/*  Service Responsive Start */
+@media (max-width:991px) {}
+
+
+@media (max-width:767px) {
+  .service_section_main_wrapepr {
+    padding: 0 0;
+  }
+}
+
+/*  Service Responsive End */
+/*  Our Team Responsive Start */
+
+@media (max-width:991px) {
+  .shadow {
+    margin-bottom: 30px;
+  }
+}
+
+
+@media (max-width:767px) {
+  .team_abt_section_main_wrapper {
+    margin-top: 50px;
+  }
+
+  .shadow {
+    margin-bottom: 30px;
+  }
+
+  .team_abt_section_main_wrapper .team_head h2 {
+    margin-bottom: 0px;
+  }
+}
+
+/*  Our Team Responsive End */
+/*  Our Dr Section Start  */
+
+@media (max-width:991px) {}
+
+
+@media (max-width:767px) {
+  .our_dr_section_main_wrapper {
+    margin-top: 50px;
+  }
+
+  .dr_head h2 {
+    margin-bottom: 10px;
+
+  }
+}
+
+
+
+/*  Our Dr Section End  */
+/*  Contact Responsive Start */
+
+@media (max-width:991px) {
+  .contact_section_main_wrapper .enquiry_icon {
+    width: 186px;
+    left: 252px;
+  }
+}
+
+
+@media (max-width:767px) {
+  .contact_section_main_wrapper .contact_head h3 {
+    font-size: 31px;
+  }
+
+  .contact_section_main_wrapper .enquiry_icon {
+    left: 47px;
+    width: 186px;
+  }
+
+  .contact_section_main_wrapper .enquiery_box h4 {
+    font-size: 26px;
+  }
+
+  .contact_section_main_wrapper .enquiery_dtl p {
+    font-size: 12px;
+  }
+
+  .enquiery_dtl {
+    padding-left: 20px;
+  }
+}
+
+/*  Contact Responsive End */
+
+/*  Footer Responsive Start */
+
+/*  Footer Responsive End */
+@media (max-width:575px) {
+  .container .p-0 {
+    padding: 5px 15px !important;
+  }
+
+  .navbar_section_main_wrapper .navbar-brand {
+    width: 150px !important;
+  }
+
+  .item img {
+    height: 300px !important;
+  }
+
+  .item_text h1 {
+    letter-spacing: 3px !important;
+    line-height: 20px !important;
+    font-size: 20px !important;
+  }
+
+  .item::before {
+    height: 300px !important;
+  }
+
+  .item_text {
+    top: 55px !important;
+  }
+
+  .banner_btn {
+    padding: 6px 10px !important;
+    margin-top: 20px !important;
+    font-size: 12px !important;
+  }
+}
