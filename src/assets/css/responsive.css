@@ -72,6 +72,7 @@
   .banner_btn {
     padding: 5px 20px;
   }
+ 
 
   .choose_us_section_main_wrapper .fa-stethoscope {
     font-size: 26px;
@@ -82,14 +83,31 @@
     height: 50px;
   }
 
-  .choose_us_section_main_wrapper .choose_text h4 {
-    font-size: 15px;
-  }
-
   .choose_us_section_main_wrapper .choose_text p {
     font-size: 12px;
   }
-
+  .choose_us_section_main_wrapper .choose_head h4 {
+    font-size: 25px !important;
+    margin-bottom: 5px !important;
+    text-align: center !important;
+}
+.choose_us_section_main_wrapper .choose_text h4 {
+  font-size: 18px !important;
+  margin-bottom: 0px !important;
+}
+.choose_us_section_main_wrapper .icon {
+  width: 55px !important;
+  height: 55px !important;
+}
+.fa-stethoscope:before {
+  content: "\f0f1";
+  font-size: 35px !important;
+}
+    .choose_us_section_main_wrapper2{
+    display: flex;
+    align-items: center;
+    margin-top: 10px !important;
+}
   .subscribe-form {
     margin-bottom: 15px;
   }
@@ -154,9 +172,28 @@
   }
 
   .counter_section_main_wrapper {
-    padding: 15px 2px;
-
+    padding: 15px 2px !important;
+    margin-top: 15px !important;
   }
+  .faq_section_main_wrapper .faq_head {
+    padding-top: 0px !important;
+}
+.faq_section_main_wrapper {
+  padding: 25px 0 !important;
+}
+.faq_section_main_wrapper .accordion-header {
+  padding: 8px 15px !important;
+  margin-bottom: 10px !important;
+}
+.service_section_main_wrapepr {
+  padding: 0px 0px !important;
+}
+.team_abt_section_main_wrapper .team_head h2 {
+  margin-bottom: 0px !important;
+}
+.team_abt_section_main_wrapper {
+  margin-top: 30px !important;
+}
 }
 
 /*  About Us Responsive End */
@@ -245,6 +282,7 @@
   .enquiery_dtl {
     padding-left: 20px;
   }
+  
 }
 
 /*  Contact Responsive End */
@@ -284,4 +322,8 @@
     margin-top: 20px !important;
     font-size: 12px !important;
   }
+  .carousel-root {
+    outline: none;
+    height: 300px !important;
+}
 }
