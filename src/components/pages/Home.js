@@ -3,8 +3,9 @@ import Herobanner from '../subcomponents/Herobannner'
 import WhyChoose from '../subcomponents/WhyChoose'
 import PetCounters from '../subcomponents/PetCounters'
 import PetCareFaqs from '../subcomponents/PetCareFaqs'
-import Services from './Services'
-import OurTeam from './OurTeam'
+import Appointment from '../subcomponents/Appointment'
+import Servicebtm from './Servicebtm'
+import Ourteambtm from './Ourteambtm'
 
 const Home = () => {
   return (
@@ -13,8 +14,9 @@ const Home = () => {
                 <WhyChoose />
                 <PetCounters />
                 <PetCareFaqs />
-                <Services />
-                <OurTeam />
+                <Servicebtm />
+                <Ourteambtm />
+                <Appointment />
     </div>
   )
 }

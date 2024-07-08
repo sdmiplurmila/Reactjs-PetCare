@@ -12,6 +12,7 @@ import ContactUs from './components/pages/ContactUs';
 import './App.css';
 import MainHeader from './components/headers/MainHeader';
 import TopHeader from './components/headers/TopHeader';
+import Footer from './components/footer/Footer';
 
 function App() {
   return (
@@ -31,6 +32,7 @@ function App() {
           </Route>
         </Routes>
       </BrowserRouter>
+           <Footer />
     </div>
   );
 }
